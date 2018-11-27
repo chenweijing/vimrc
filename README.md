@@ -20,3 +20,11 @@ insert:
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+升级 vim:
+sudo add-apt-repository ppa:jonathonf/vim 
+sudo apt update 
+sudo apt install vim 
+ 
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt-get update && sudo apt-get upgrade
