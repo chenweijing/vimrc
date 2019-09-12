@@ -40,4 +40,7 @@ sudo add-apt-repository ppa:jonathonf/vim
 
 sudo apt-get update && sudo apt-get upgrade
 
-# a test for reademe
+## 第一步illixllbu安装插件guan工具步 
+curl  ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+

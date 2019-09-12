@@ -5,6 +5,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
+Plug 'fatih/vim-go'
 call plug#end()
 
 " ---------- 自定义设置 -----------
@@ -100,7 +101,6 @@ inoremap <c-^> <C-o><C-^>
 
 " Esc
 imap jk <Esc>
-nnoremap nn  <F2>
 
 " ----------------------------------------------------
 "  <tab> / <s-tab> | Circular windows navigation
