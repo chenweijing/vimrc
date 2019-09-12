@@ -5,7 +5,6 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
-Plug 'fatih/vim-go'
 call plug#end()
 
 " ---------- 自定义设置 -----------
@@ -111,6 +110,12 @@ nnoremap <leader>hw <C-W>h
 nnoremap <leader>jw <C-W>j
 nnoremap <leader>kw <C-W>k
 nnoremap <leader>lw <C-W>l
+
+" 翻页设置
+nnoremap <leader>ff <C-f>
+nnoremap <leader>bb <C-b>
+nnoremap <leader>dd <C-d>
+nnoremap <leader>uu <C-u>
 
 
 " ctrlp
