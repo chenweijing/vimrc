@@ -43,4 +43,17 @@ sudo apt-get update && sudo apt-get upgrade
 ## 第一步illixllbu安装插件guan工具步 
 curl  ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+# 第二步
+vim :PlugInstall
+
+# 第二步
+手动安装YouCompleteMe
+cd ~/.vim/Pluged 执行  
+cd YouCompleteMe
+./install.sh --all
+
+
+
+
+
 
