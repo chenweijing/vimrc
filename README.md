@@ -52,8 +52,12 @@ cd ~/.vim/Pluged 执行
 cd YouCompleteMe
 ./install.sh --all
 
+go github 上找插件
+mkdir $GOPATH/src/golang.org/x
+cd $GOPATH/src/golang.org/x
+git clone git@github.com:golang/text.git
 
-
+text.git 可以替换其它的
 
 
 
