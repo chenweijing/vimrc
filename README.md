@@ -59,5 +59,8 @@ git clone git@github.com:golang/text.git
 
 text.git 可以替换其它的
 
+# 安装plug
+https://linux.cn/article-9751-1.html
+
 
 
